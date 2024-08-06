@@ -20,7 +20,7 @@ body {
 }
 
 .header .logo {
-    font-size: 70px; /* Golden ratio */
+    font-size: 48px; /* Golden ratio */
     font-weight: 900;
     position: absolute;
     left: 50%;
@@ -90,7 +90,7 @@ body {
 /* Hero Section Styles */
 .hero {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 100px); /* Adjusted height to fit layout */
     width: 100vw;
 }
 
@@ -107,11 +107,12 @@ body {
 .overlay {
     position: absolute;
     top: 50%;
-    left: 150px;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.4); /* 40% transparency overlay */
     padding: 20px;
     color: #F7EFE2; /* White text */
+    text-align: center;
 }
 
 .overlay h1 {
@@ -127,24 +128,17 @@ body {
 /* Widgets Section Styles */
 .widgets {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     padding: 20px;
 }
 
-.soundcloud-widget {
-    width: 50vw;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
+.soundcloud-widget,
 .bandcamp-widget {
-    width: 100%;
-    text-align: center;
+    width: 45%;
     background-color: #F7EFE2; /* White background */
     color: #00492B; /* Text color */
     padding: 20px;
-    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Social Media Buttons Styles */
@@ -166,3 +160,14 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #00492B; /* Link color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height

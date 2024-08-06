@@ -28,12 +28,6 @@ body {
     gap: 15px;
 }
 
-.navigation a {
-    text-decoration: none;
-    color: #EBAEED; /* Text color */
-    font-weight: 700;
-}
-
 /* Hero Section Styles */
 .hero {
     position: relative;

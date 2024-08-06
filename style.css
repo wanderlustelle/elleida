@@ -1,0 +1,88 @@
+body {
+    font-family: 'Gabarito', sans-serif;
+    background-color: #B2D8D8; /* Sweet Leaf */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #EBAEED; /* Purple Haze */
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000; /* Black */
+    font-weight: 700; /* Medium */
+}
+
+.hero video {
+    width: 100%;
+    height: auto;
+}
+
+.widgets iframe {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7EFE2; /* Dreams */
+    padding: 20px;
+}
+
+.about img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text p {
+    font-size: 20px; /* Body 400 */
+}
+
+.about-text .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F4B608; /* Yellow Submarine */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700; /* Medium */
+}
+
+.footer {
+    background-color: #EBAEED; /* Purple Haze */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000; /* Black */
+}
+
+.footer .contact-info p {
+    margin: 0;
+}
